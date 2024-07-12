@@ -6,9 +6,7 @@ package ga_tsp_problem;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Random;
 
 /**
@@ -173,25 +171,6 @@ public class GA {
 
         return populationParent;
     }
-    public Individual TournamentSelection(ArrayList<Individual> population, int tournamentSize) {
-        Random random = new Random();
-        ArrayList<Individual> tournament = new ArrayList<>();
-
-        // Chọn ngẫu nhiên các cá thể vào giải đấu
-        for (int i = 0; i < tournamentSize; i++) {
-            int randomIndex = random.nextInt(population.size());
-            tournament.add(population.get(randomIndex));
-        }
-        // Chọn cá thể có fitness cao nhất từ giải đấu
-         if (!tournament.isEmpty()) {
-        // Sắp xếp giải đấu theo fitness giảm dần
-        Collections.sort(tournament, (a, b) -> Double.compare(b.Fitness(), a.Fitness()));
-
-        // Chọn cá thể có fitness cao nhất từ giải đấu
-        return tournament.get(0);
-    } else {
-        // Trong trường hợp danh sách giải đấu rỗng, trả về null hoặc làm xử lý phù hợp
-        return null; // hoặc return một giá trị mặc định khác
-    }
-    }
+    
+    
 }
