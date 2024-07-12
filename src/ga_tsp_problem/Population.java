@@ -57,7 +57,7 @@ public class Population {
             population.subList(limit, population.size()).clear();
         }
     }
-
+    
     // Trộn lại population sau khi sắp xếp và lọc
     public void shuffle() {
         Collections.shuffle(population);
