@@ -1,0 +1,7 @@
+số lượng cá thể trong quần thể: 50
+tỉ lệ lai ghép: 0.8
+tỉ lệ đột biến: 0.01
+điều kiện dừng về số lượng thế hệ: 200
+điều kiện dừng về số lượng thế hệ không cải thiện liên tục: 20
+điều kiện dừng về thời gian không cải thiện (s): 100
+điều kiện dừng về thời gian chạy giải thuật (s): 500

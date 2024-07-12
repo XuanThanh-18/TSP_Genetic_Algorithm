@@ -1,0 +1,4 @@
+1. đường dẫn dataset: "D:\Xuan_Thanh\Toi_Uu\GA_TSP_Problem\Test_48.txt"
+2. đường dẫn file kết quả tốt nhất: "D:\Xuan_Thanh\Toi_Uu\GA_TSP_Problem\result.txt"
+3. đường dẫn file kết quả qua từng thế hệ: "D:\Xuan_Thanh\Toi_Uu\GA_TSP_Problem\generation-result.txt"
+4. đường dẫn file tham số thực nghiệm: "D:\Xuan_Thanh\Toi_Uu\GA_TSP_Problem\paramters.txt"
